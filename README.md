@@ -1,6 +1,6 @@
 <h1 align="center"> Programmer Movie Watchlist</h1>
 
-**Programmer Movie Watchlist** This is a Task for MagicApps Android Development Internship. This App will show top 10 movie names that a programmer should watch.
+**Programmer Movie Watchlist** This is a Task for **MagicApps** Android Development Internship. This App will show top 10 movie names that a programmer should watch.
 
 <div style="text-align:center">
 
