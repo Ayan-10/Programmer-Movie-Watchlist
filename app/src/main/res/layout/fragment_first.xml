@@ -8,9 +8,11 @@
 
     <TextView
         android:id="@+id/username_first"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
+        android:gravity="center"
         android:layout_height="wrap_content"
         android:text="@string/first_fragment"
+        android:layout_margin="20dp"
         android:textColor="@color/purple_500"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@id/button_first"
