@@ -29,13 +29,18 @@ public class FirstFragment extends Fragment {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         Init(view);
-        sharedPreferences = getActivity().getSharedPreferences(TaskConstants.SHARED_PREF_NAME, MODE_PRIVATE);
-        String savedUsername = sharedPreferences.getString(TaskConstants.KEY_USERNAME, null);
 
+        /* Getting Username from SharedPreferences and showing it in First Fragment */
+        sharedPreferences = getActivity()
+                .getSharedPreferences(TaskConstants.SHARED_PREF_NAME, MODE_PRIVATE);
+        String savedUsername = sharedPreferences
+                .getString(TaskConstants.KEY_USERNAME, null);
         username.setText(getResources().getString(R.string.welcome_user, savedUsername));
+
+        /* Navigate to MyTaskFragment */
         view.findViewById(R.id.button_first).setOnClickListener(view1 ->
                 NavHostFragment.findNavController(FirstFragment.this)
-                .navigate(R.id.action_FirstFragment_to_SecondFragment));
+                .navigate(R.id.action_FirstFragment_to_MyTaskFragment));
     }
 
     private void Init(View view) {

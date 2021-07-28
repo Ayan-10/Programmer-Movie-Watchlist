@@ -1,5 +1,8 @@
 package io.realworld.android.programmermoviewatchlist;
 
+/**
+ * Store all constants of the App
+ */
 public class TaskConstants {
 
     public static final String SHARED_PREF_NAME = "TaskPreference";

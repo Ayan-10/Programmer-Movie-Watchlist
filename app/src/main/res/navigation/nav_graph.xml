@@ -12,17 +12,17 @@
         tools:layout="@layout/fragment_first">
 
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_FirstFragment_to_MyTaskFragment"
+            app:destination="@id/MyTaskFragment" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
+        android:id="@+id/MyTaskFragment"
         android:name="io.realworld.android.programmermoviewatchlist.MyTaskFragment"
         android:label="@string/my_task_fragment_label"
         tools:layout="@layout/fragment_my_task">
 
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            android:id="@+id/action_MyTaskFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
 </navigation>

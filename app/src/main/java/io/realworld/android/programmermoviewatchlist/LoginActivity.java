@@ -25,6 +25,9 @@ public class LoginActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         Init();
 
+        /* Getting value from SharedPreferences.
+         * If value is stored that starting Welcome Activity
+         */
         sharedPreferences = getSharedPreferences(TaskConstants.SHARED_PREF_NAME, MODE_PRIVATE);
 
         String savedUsername = sharedPreferences.getString(TaskConstants.KEY_USERNAME, null);
