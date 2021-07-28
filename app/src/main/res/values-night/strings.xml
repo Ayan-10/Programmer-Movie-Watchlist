@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="fields_can_t_be_empty">Fields can\'t be empty</string>
+    <string name="log_in_to_your_account">Log in to your account</string>
+    <string name="enter_your_username">Enter your Username</string>
+    <string name="welcome_to_programmer_movie_watchlist_app">Welcome to Programmer Movie Watchlist App</string>
+    <string name="login">Login</string>
+    <string name="image_url">Image URL</string>
+    <string name="movie_name">Movie Name</string>
+</resources>

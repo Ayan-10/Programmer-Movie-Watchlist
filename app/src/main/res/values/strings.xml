@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Programmer Movie Watchlist</string>
+    <string name="action_log_out">Log out</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="my_task_fragment_label">MyTask Fragment</string>
+    <string name="next">My Task</string>
+    <string name="previous">Previous</string>
+    <string name="first_fragment">Welcome User</string>
+    <string name="welcome_user">Welcome %s</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="fields_can_t_be_empty">Fields can\'t be empty</string>
+    <string name="log_in_to_your_account">Log in to your account</string>
+    <string name="enter_your_username">Enter your Username</string>
+    <string name="welcome_to_programmer_movie_watchlist_app">Welcome to Programmer Movie Watchlist App</string>
+    <string name="login">Login</string>
+    <string name="image_url">Image URL</string>
+    <string name="movie_name">Movie Name</string>
+
+    <string-array name="movie_names">
+        <item>Tron</item>
+        <item>Hackers</item>
+        <item>The Pirates of Silicon Valley</item>
+        <item>Antitrust</item>
+        <item>The Social Network</item>
+        <item>The Internship</item>
+        <item>Jobs</item>
+        <item>The Imitation Game</item>
+        <item>Ex Machina</item>
+        <item>Her</item>
+    </string-array>
+
+    <string-array name="movie_image_urls">
+        <item>https://lumiere-a.akamaihd.net/v1/images/p_tronlegacy_19298_7b1ec957.jpeg</item>
+        <item>https://m.media-amazon.com/images/M/MV5BNmExMTkyYjItZTg0YS00NWYzLTkwMjItZWJiOWQ2M2ZkYjE4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg</item>
+        <item>https://i.pinimg.com/originals/a0/b3/ff/a0b3ff8c3acf3c6e32c14c898d282309.jpg</item>
+        <item>https://static.rogerebert.com/uploads/movie/movie_poster/antitrust-2001/large_1uYxy1buEOhr0hybdqLYDJh9zy9.jpg</item>
+        <item>https://miro.medium.com/max/712/1*stgfTdpOB56JoRePBapJCA.jpeg</item>
+        <item>https://lumiere-a.akamaihd.net/v1/images/theinternship_584x800_4f25d97d.jpeg</item>
+        <item>https://i.pinimg.com/originals/e2/81/9d/e2819de0653c516f0e242038770fa3b8.jpg</item>
+        <item>https://i.pinimg.com/originals/da/48/10/da4810b8435fae69dc99af38c253a0b5.jpg</item>
+        <item>https://i.pinimg.com/originals/29/e4/1b/29e41bcb6d4c333a84d9dd9aca240830.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/4/44/Her2013Poster.jpg</item>
+    </string-array>
+</resources>
